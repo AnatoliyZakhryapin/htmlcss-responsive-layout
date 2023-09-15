@@ -30,11 +30,7 @@ body {
 
 img {
     max-width: 100%;
-}
-
-figure>img {
     display: block;
-    width: 100%;
 }
 
 .container-fluid {
@@ -58,15 +54,15 @@ figure>img {
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
 }
 
 .row > [class^='col'] {
     padding: 0 12px;
 }
 
-.col-2 {
+/* .col-2 {
     flex-basis: calc((100% / 12) * 2);
 }
 
@@ -108,7 +104,7 @@ figure>img {
 
 .col-12 {
     flex-basis: calc((100% / 12) * 12);
-}
+} 
 
 .flex {
     display: flex;
@@ -121,6 +117,7 @@ figure>img {
 .item-center {
     align-items: center;
 }
+*/
 
 :root {
     --blue:#0084fd;
@@ -142,10 +139,7 @@ figure>img {
     white-space: nowrap;
     border: 2px solid var(--light-white);
     border-radius: 999px;
-   
-
 }
-
 
 /* HEADER SETTING */
 
@@ -155,7 +149,7 @@ figure>img {
 }
 
 .nav-menu {
-    display: flex;
+    display: none;
     gap: 30px;
     align-items: center;
     color: var(--light-white);
