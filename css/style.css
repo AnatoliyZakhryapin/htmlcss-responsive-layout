@@ -1,0 +1,151 @@
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+/* GENERAL SETTING*/
+
+html {
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure>img {
+    display: block;
+    width: 100%;
+}
+
+.container-fluid {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1174px;
+    margin: 0 auto;
+}
+
+.container-medium {
+    max-width: 1074px;
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 904px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row > [class^='col'] {
+    padding: 0 12px;
+}
+
+.col-2 {
+    flex-basis: calc((100% / 12) * 2);
+}
+
+.col-3 {
+    flex-basis: calc((100% / 12) * 3);
+}
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
+}
+
+.col-5 {
+    flex-basis: calc((100% / 12) * 5);
+}
+
+.col-6 {
+    flex-basis: calc((100% / 12) * 6);
+}
+
+.col-7 {
+    flex-basis: calc((100% / 12) * 7);
+}
+
+.col-8 {
+    flex-basis: calc((100% / 12) * 8);
+}
+
+.col-9 {
+    flex-basis: calc((100% / 12) * 9);
+}
+
+.col-10 {
+    flex-basis: calc((100% / 12) * 10);
+}
+
+.col-11 {
+    flex-basis: calc((100% / 12) * 11);
+}
+
+.col-12 {
+    flex-basis: calc((100% / 12) * 12);
+}
+
+:root {
+    --blue:#0084fd;
+    --light-blue: #b5ddff;
+    --purple: #9792e4;
+    --yellow: #fdc15f;
+    --dark-grey: #333333;
+    --light-white: #ffffff;
+}
+
+/* HEADER SETTING */
+
+/* MAIN SETTING */
+
+/* FOOTER SETTING */
+
+/* DEBUG */
+
+/* --general debug-- */
+
+.debug .container-fluid {
+    border: 3px solid rgb(255, 4, 234);
+    margin: 0 auto;
+}
+
+.debug .row {
+    border: 2px solid rgb(255, 174, 1);
+}
+
+.debug [class^="col"] {
+    border: 2px solid rgb(8, 8, 8);
+}
+
+.debug [class^="card"] {
+    border: 1px solid rgb(0, 241, 0);
+}
+
+.debug [class^="card"]>* {
+    border: 1px dashed rgb(41, 50, 177);
+}
