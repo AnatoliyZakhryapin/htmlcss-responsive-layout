@@ -1,5 +1,14 @@
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .nav-menu {
+        display: none;
+    }
+    .nav-menu.m {
+        display: flex;
+    }
+}
+}
