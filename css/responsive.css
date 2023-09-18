@@ -99,7 +99,12 @@
         padding: 0px 80px;
         line-height: 80px;
     }
-
+    .page-footer {
+        padding-top: 45px;
+    }
+    .page-footer .col p {
+        max-width: 60%;
+    }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 

@@ -561,9 +561,28 @@ img {
     font-size: 6px;
 }
 
-
-
 /* FOOTER SETTING */
+
+.page-footer {
+    background-color: var(--dark-grey);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: var(--light-white);
+    text-align: center;
+}
+
+.page-footer .col {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+}
+
+.page-footer a {
+    display: inline;
+    text-decoration: underline;
+    color: var(--purple);
+}
 
 /* DEBUG */
 
