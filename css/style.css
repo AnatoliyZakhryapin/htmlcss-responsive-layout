@@ -421,6 +421,76 @@ img {
    
 }
 
+/* section-about-us */
+
+.section-about-us {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.section-about-us .col-m-8 h2 {
+    font-size: 36px;
+    color: var(--purple);
+    margin-bottom: 50px;
+}
+
+.section-about-us .col-m-8 p + p {
+    margin-top: 60px;
+}
+
+.section-about-us .col-m-4 p {
+    font-size: 22px;
+    color: var(--purple);
+    font-weight: 600;
+}
+
+.section-about-us .col-m-4 p {
+    font-size: 22px;
+    color: var(--purple);
+    font-weight: 600;
+}
+
+.section-about-us .col-m-4 i.fa-quote-left {
+    font-size: 50px;
+    color: var(--purple);
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.about-us__image .image {
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    max-width: 180px;
+}
+
+.about-us__image {
+   position: relative;
+}
+
+.section-about-us .row {
+    row-gap: 55px;
+}
+
+.section-about-us .col-m-4 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: flex-start;
+}
+
+.button-about-us {
+    background-color: var(--purple);
+    border-color: var(--purple);
+    color: var(--light-white);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 14px;
+}
 
 
 /* FOOTER SETTING */
