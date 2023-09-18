@@ -30,7 +30,9 @@ body {
     line-height: 1.6;
 }
 
-body > * {
+header > *,
+main > *,
+footer > * {
     padding: 0px 20px;
 }
 
@@ -249,7 +251,56 @@ img {
     max-width: 260px;
     margin: 0 auto;
 }
+/* section-planning */
 
+.section-planning {
+    background-color: var(--purple);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: var(--light-white);
+}
+
+.card-planning {
+    background-color: var(--light-white);
+    color: var(--dark-grey);
+    padding: 30px 20px 30px 20px;
+}
+
+.card-planning p {
+    font-style: italic;
+}
+
+.card-planning .card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.planning-image {
+    margin-bottom: 90px;
+}
+
+.section-planning h3 {
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.section-planning h4 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.section-planning .col p:first-child {
+    margin-bottom: 30px;
+}
+
+.button-circle {
+    background-color: var(--purple);
+    border-color: var(--purple);
+    padding: 0px 13px;
+}
 /* FOOTER SETTING */
 
 /* DEBUG */
