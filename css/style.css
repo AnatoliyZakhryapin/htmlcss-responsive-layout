@@ -371,6 +371,55 @@ img {
     max-width: 200px;
 }
 
+/* section-benifits */
+
+.section-benifits {
+    background-color: var(--purple);
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.section-benifits__title .col h2 {
+    color: var(--light-white);
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 70px;
+}
+
+.card-benifits {    
+    background-color: var(--light-white);
+    padding: 50PX 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.card-benifits .card-header, 
+.card-benifits h3 {
+    color: var(--purple);
+}
+
+.card-benifits .card-header h2 {
+   font-size: 36px;
+   line-height: 36px;
+}
+
+.benifits-list {
+    gap: 32px;
+}
+
+.button-benifits {
+    color: var(--light-white);
+    background-color: var(--purple);
+    border-color: var(--purple);
+    letter-spacing: 3px;
+    font-weight: 600;
+   
+}
+
+
+
 /* FOOTER SETTING */
 
 /* DEBUG */
