@@ -76,6 +76,29 @@
     .section-about-us .col-m-8 {
         padding-right: 100px;
     }
+    .section-get-started {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .get-started__content {
+        gap: 35px;
+    }
+    .get-started__content__main-text h2 {
+        font-size: 44px;
+    }
+    .main-text__focus {
+        font-size: 75px;
+    }
+
+    element.style {
+    }
+    .get-started__content__main-text p {
+        max-width: 60%;
+    }
+    .button-get-started {
+        padding: 0px 80px;
+        line-height: 80px;
+    }
 
 }
 /* Large devices (desktops, 992px and up) */
