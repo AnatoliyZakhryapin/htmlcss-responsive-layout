@@ -540,6 +540,10 @@ img {
     color: var(--purple);
     background-color: var(--light-white);
     border-color: var(--light-white);
+    padding: 0px 70px;
+    line-height: 62px;
+    letter-spacing: 3px;
+    font-weight: 600;
 }
 
 .get-started__content__footer ul {
