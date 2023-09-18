@@ -34,6 +34,17 @@
     .card-planning {
         padding: 30px 50px 30px 50px;
     }
+    .card-testimonials {
+        flex-direction: row;
+    }
+
+    .card-testimonials .card-body {
+        align-items: flex-start;
+    }
+    .card-testimonials .card-body p {
+        text-align: left;
+    }
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -70,5 +81,10 @@
     }
     .section-planning .col:last-child {
         align-self: flex-end;
+    }
+
+
+    .card-testimonials {
+        gap: 60px;
     }
 }
