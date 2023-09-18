@@ -177,6 +177,10 @@ img {
 .uppercase {
     text-transform: uppercase;
 }
+
+.underline {
+    text-decoration-line: underline;
+}
 /* HEADER SETTING */
 
 .page-header {
@@ -491,6 +495,68 @@ img {
     gap: 10px;
     padding: 0px 14px;
 }
+
+/* Get-Started */
+
+.section-get-started {
+    background-color: var(--purple);
+    color: var(--light-white);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.get-started__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.get-started__content__header {
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.get-started__content__main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    align-items: center;
+    text-align: center;
+}
+
+.get-started__content__main-text h2 {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.main-text__focus {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--yellow);
+}
+
+.button-get-started {
+    color: var(--purple);
+    background-color: var(--light-white);
+    border-color: var(--light-white);
+}
+
+.get-started__content__footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.get-started__content__footer ul li {
+    display: flex;
+    align-items: center;
+}
+
+.get-started__content__footer i {
+    font-size: 6px;
+}
+
 
 
 /* FOOTER SETTING */
