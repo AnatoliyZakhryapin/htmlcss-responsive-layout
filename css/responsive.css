@@ -8,6 +8,9 @@
     .col-m-4 {
         width: calc((100% / 12) * 4);
     }
+    .col-m-6 {
+        width: 50%;
+    }
     .col-m-8 {
         width: calc((100% / 12) * 8);
     }
@@ -44,6 +47,18 @@
     .card-testimonials .card-body p {
         text-align: left;
     }
+    .section-benifits__title .col h2 {
+        font-size: 46px;
+    }
+    .card-benifits .card-header h2 {
+        font-size: 50px;
+        line-height: 50px;
+     }
+
+    .benifits-list { 
+       row-gap: 24px;
+    }
+    
 
 }
 

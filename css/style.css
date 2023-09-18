@@ -379,9 +379,12 @@ img {
     padding-bottom: 60px;
 }
 
+.section-benifits__title {
+    justify-content: center;
+}
+
 .section-benifits__title .col h2 {
     color: var(--light-white);
-    text-align: center;
     font-size: 30px;
     padding-bottom: 70px;
 }
@@ -406,7 +409,7 @@ img {
 }
 
 .benifits-list {
-    gap: 32px;
+    row-gap: 32px;
 }
 
 .button-benifits {
