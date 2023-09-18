@@ -94,11 +94,17 @@
         align-items: flex-end;
         margin: 0 auto;
     }
+    .col-lg-3 {
+        width: calc((100% / 12 ) * 3 );
+    }
     .col-lg-4 {
         flex-basis: calc((100% / 12 ) * 4 );
     }
     .col-lg-6 {
         flex-basis: 50%;
+    }
+    .col-lg-9 {
+        width: calc((100% / 12 ) * 9 );
     }
     .planning-image {
         margin-bottom: 145px;
@@ -123,5 +129,12 @@
 
     .section-benifits__title .col h2 {
         font-size: 50px;
+    }
+    .section-about-us .row {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .section-about-us .col-lg-9 {
+        padding-right: 100px;
     }
 }
