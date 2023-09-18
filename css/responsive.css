@@ -58,7 +58,7 @@
     .benifits-list { 
        row-gap: 24px;
     }
-    
+
 
 }
 
@@ -78,8 +78,8 @@
         align-items: flex-end;
         margin: 0 auto;
     }
-    .col-m-8 .card-hero > *{
-        flex-basis: 50%;
+    .col-lg-4 {
+        flex-basis: calc((100% / 12 ) * 4 );
     }
     .col-lg-6 {
         flex-basis: 50%;
@@ -97,9 +97,15 @@
     .section-planning .col:last-child {
         align-self: flex-end;
     }
-
-
     .card-testimonials {
         gap: 60px;
+    }
+    .card-benifits .card-header h2 {
+        font-size: 56px;
+        line-height: 56px;
+    }
+
+    .section-benifits__title .col h2 {
+        font-size: 50px;
     }
 }
