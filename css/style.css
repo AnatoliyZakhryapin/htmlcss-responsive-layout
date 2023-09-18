@@ -173,6 +173,10 @@ img {
 [class^='col'] .card {
     height: 100%;
 }
+
+.uppercase {
+    text-transform: uppercase;
+}
 /* HEADER SETTING */
 
 .page-header {
@@ -316,6 +320,7 @@ img {
 .section-testimonials__text h3 {
     order: -1;
     margin-bottom: 40px;
+    text-transform: uppercase;
 }
 
 .section-testimonials__text p {
@@ -349,6 +354,7 @@ img {
 
 .card-testimonials .card-body h3 {
    order: 1;
+   text-transform: uppercase;
 }
 
 .testimonials-list {
