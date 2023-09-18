@@ -58,10 +58,26 @@
     .benifits-list { 
        row-gap: 24px;
     }
-
+    .section-about-us .row {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section-about-us {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+    .section-about-us .col-m-8 h2 {
+        font-size: 50px;
+        margin-bottom: 60px;
+    }
+    .section-about-us .col-m-8 p + p {
+        margin-top: 70px;
+    }
+    .section-about-us .col-m-8 {
+        padding-right: 100px;
+    }
 
 }
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .nav-menu {
